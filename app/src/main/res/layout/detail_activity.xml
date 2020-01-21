@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Nested_scrol"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/aa"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:scrollbars="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="#00BCD4"
+            android:padding="3dp"
+            android:text="@string/ingrdient"
+            android:textColor="#000000"
+            android:textSize="35sp"
+            android:textStyle="italic" />
+
+        <View
+            android:layout_width="150dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="4dp"
+            android:background="#FFF" />
+
+        <FrameLayout
+            android:id="@+id/Cont_Of_Ingrd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="#00BCD4"
+            android:padding="3dp"
+            android:text="@string/steps"
+            android:textColor="#151414"
+            android:textSize="35sp"
+            android:textStyle="italic" />
+
+        <View
+            android:layout_width="150dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:background="#FFF" />
+
+        <FrameLayout
+            android:id="@+id/Cont_Of_Sep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="5dp" />
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

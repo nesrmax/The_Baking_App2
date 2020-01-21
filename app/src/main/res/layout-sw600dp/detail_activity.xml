@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:scrollbars="vertical"
+    android:padding="5dp"
+    android:background="@drawable/aa"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#0d0c0c"
+        android:padding="5dp"
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
+        app:fontFamily="cursive"
+        android:text="@string/ingrdient"
+        android:fontFamily="cursive"
+        android:background="#ffeded"
+        />
+    <View
+        android:layout_marginTop="4dp"
+        android:layout_width="200dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center"
+        android:background="#FFF"/>
+
+    <FrameLayout
+        android:id="@+id/Cont_Of_Ingrd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="5dp">
+    </FrameLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#151414"
+        android:textSize="40sp"
+        android:padding="2dp"
+        android:textStyle="bold|italic"
+        app:fontFamily="cursive"
+        android:text="@string/steps"
+        android:fontFamily="cursive"
+        android:layout_marginTop="5dp"
+        android:background="#ffe8e8"
+        />
+    <View
+        android:layout_marginTop="4dp"
+        android:layout_width="200dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center"
+        android:background="#FFF"/>
+    <FrameLayout
+        android:id="@+id/Cont_Of_Sep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:padding="5dp">
+    </FrameLayout>
+</LinearLayout>
+</ScrollView>

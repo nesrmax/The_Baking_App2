@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="400dp"
+        android:orientation="vertical"
+        android:background="@drawable/jj">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="5dp"
+            android:textColor="#0a0909"
+            android:textSize="88sp"
+            android:textStyle="bold"
+            app:fontFamily="cursive"
+            android:text="@string/ingrdient"
+            android:fontFamily="cursive"
+            android:background="#ffeded"
+            />
+        <View
+            android:layout_marginTop="0dp"
+            android:layout_width="200dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:background="#ffffff"/>
+
+        <FrameLayout
+            android:id="@+id/Cont_Of_Ingrd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="5dp">
+        </FrameLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="5dp"
+            android:textColor="#0a0909"
+            android:textSize="100sp"
+            android:textStyle="bold"
+            app:fontFamily="cursive"
+            android:text="@string/steps"
+            android:fontFamily="cursive"
+            android:layout_marginTop="5dp"
+            android:background="#ffeded"
+
+            />
+        <View
+            android:layout_marginTop="0dp"
+            android:layout_width="200dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:background="#ffffff"/>
+        <FrameLayout
+            android:id="@+id/Cont_Of_Sep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="5dp">
+        </FrameLayout>
+
+    </LinearLayout>
+
+
+  <FrameLayout
+      android:id="@+id/ShowContainer"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+  </FrameLayout>
+</LinearLayout>
